@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model checkpoints except v17.1
+models/*/
+!models/v17.1/
+models/v17.1/*_test_*
+
+# Jupyter
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+.idea/
+
+# Large temp files
+*.tmp
+*.bak
+
+# Do NOT ignore the main project files
+!*.py
+!requirements.txt
+!README.md
+!.gitignore
